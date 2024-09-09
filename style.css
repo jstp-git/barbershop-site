@@ -1,0 +1,94 @@
+body{
+    font-family: "Nerko One", cursive;
+    font-weight: 50px;
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.902);
+    color: gold;
+  }
+#heading{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.logo{
+  height: 150px;
+  width: 150px;
+  margin:50px
+}
+@media (max-width:750px )
+{
+    .logo{
+        display:none;
+    }
+}
+
+#nav nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#nav p{
+    padding: 10px;
+}
+
+#about{
+   border: 2px solid gold;
+ 
+}
+
+#services{
+    display: flex;
+    justify-content: center;
+align-content: center;
+}
+
+@media (max-width:750px)
+{
+    #services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+       
+    }
+}
+
+.service{
+    border:2px solid gold;
+padding:20px;
+margin: 20px;
+justify-items: center;
+align-items: center;
+width:33%;
+
+
+}
+
+#services img{
+   height: 45px;
+   width:45px;
+   justify-content: center;
+}
+
+footer{
+  display: flex;
+font-size: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#buttons{
+display:flex;
+flex-direction: row;
+gap: 10px;
+justify-content:space-between ;
+width: 75%;
+
+}
+#buttons p{
+    font-size:1.5em;
+}
